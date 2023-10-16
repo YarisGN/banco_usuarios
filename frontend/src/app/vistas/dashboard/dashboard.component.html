@@ -1,0 +1,28 @@
+<app-header></app-header>
+
+<div class="container">
+
+  <h3>Lista de clientes</h3><br>
+  <button type="button" class="btn btn-primary" (click)="nuevo">Nuevo</button>
+
+  <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col" id>#</th>
+          <th scope="col" nombre>First</th>
+          <th scope="col" edad>Last</th>
+          <th scope="col" profesion>Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let clientes of clientes" (click)="editar(cliente.ClienteId)">
+          <th scope="row">{{ clientes.id }}</th>
+          <td>{{ clientes.nombre }}</td>
+          <td>{{ clientes.edad }}</td>
+          <td>{{ clientes.profesion }}</td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+
+<app-footer></app-footer>
