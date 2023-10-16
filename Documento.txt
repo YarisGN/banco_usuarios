@@ -1,0 +1,25 @@
+
+primero se debe importar la base de datos que tiene de nombre "banco_usuarios"
+en mi caso yo una xampp asi que se debe iniciar
+
+para iniciar el backend, debemos redireccionar a la carpeta src que es donde esta el index
+luego en la terminal usamos el comando "node index.js"
+
+en el buscador con lo siguiente 
+http://localhost:4000/api/clients
+
+
+Para traer toda la tabla
+http://localhost:4000/api/clients
+
+http://localhost:4000/api/usuarios
+
+Para traer un id
+http://localhost:4000/api/clients/1
+
+
+
+
+ng serve 		para iniciar el proyecto
+ng serve -o		para iniciar y que el mismo abra 
+http://localhost:4200/	la ruta 
