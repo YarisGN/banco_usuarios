@@ -83,8 +83,3 @@ Puedes utilizar las siguientes credenciales para iniciar sesiÃ³n en la aplicaciÃ
 ## Licencia
 
 
-
-
-
-
-
