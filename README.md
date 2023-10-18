@@ -82,3 +82,5 @@ Puedes utilizar las siguientes credenciales para iniciar sesión en la aplicaci�
 
 ## Licencia
 
+Este proyecto está bajo la [Licencia MIT](LICENSE)
+
