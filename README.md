@@ -12,8 +12,8 @@ Bienvenido a la aplicación web "Banco de Usuarios", una herramienta que te perm
 
 ## Capturas de Pantalla
 
+![Alt text](image.png)
 ![Alt text](image-1.png)
-![Alt text](image-2.png)
 
 
 ## Instalación
