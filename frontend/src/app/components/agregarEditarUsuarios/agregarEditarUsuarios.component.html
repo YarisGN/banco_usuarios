@@ -1,0 +1,37 @@
+<h1 mat-dialog-title>{{tituloAccion}}</h1>
+<div mat-dialog-content>
+  <form [formGroup]="formUser">
+    <mat-grid-list cols="1" rowHeight="90px">
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>ID (opcional)</mat-label>
+          <input matInput placeholder="12345" formControlName="id" autocomplete="off">
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>Ingresa el nombre</mat-label>
+          <input matInput placeholder="" formControlName="nombre" autocomplete="off">
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>Ingresa la edad</mat-label>
+          <input matInput placeholder="" formControlName="edad" autocomplete="off">
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+          <mat-label>Ingresa la profesion</mat-label>
+          <input matInput placeholder="" formControlName="profesion" autocomplete="off">
+        </mat-form-field>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </form>
+
+
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button color="warn" mat-dialog-close>Atras</button>
+  <button mat-raised-button color="primary"(click)="addEditUser()" [disabled]="formUser.invalid">{{tituloBoton}}</button>
+</div>

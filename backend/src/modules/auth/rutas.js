@@ -5,7 +5,7 @@ const controller = require('./index');
 
 const router = express.Router();
 
-router.get('/login', login);
+router.post('/login', login);
 
 async function login (req, res, next){
     try{

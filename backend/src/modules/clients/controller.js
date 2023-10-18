@@ -17,15 +17,21 @@ module.exports = function (dbInyectada) {
     function agregar (body) {
         return db.agregar(TABLA, body);
     }
-    
-    function eliminar (body) {
-        return db.eliminar(TABLA, body);
+
+    function editar (body) {
+        return db.editar(TABLA, body);
     }
+    
+    function eliminar(id) {
+        return db.eliminar(TABLA, id);
+    }
+    
 
     return{
         todos,
         uno,
         agregar,
         eliminar,
+        editar
     }
 }

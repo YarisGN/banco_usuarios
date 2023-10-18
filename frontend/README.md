@@ -1,27 +1,90 @@
-# Frontend
+# banco_usuarios
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+Bienvenido a la aplicación web "Banco de Usuarios", una herramienta que te permite gestionar un banco de usuarios de manera eficiente. Esta aplicación cuenta con un backend robusto, un frontend atractivo, una base de datos MySQL y una API REST segura con autenticación por token.
 
-## Development server
+## Tabla de Contenidos
+- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Autenticación](#autenticación)
+- [Licencia](#licencia)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Capturas de Pantalla
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Alt text](image-1.png)
+![Alt text](image-2.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalación
 
-## Running unit tests
+### Backend
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para configurar el backend de la aplicación, sigue estos pasos:
 
-## Running end-to-end tests
+1. Abre una terminal en la carpeta raíz del proyecto.
+2. Ejecuta el siguiente comando para instalar las dependencias del servidor Express:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   npm install
+3. Inicia el servidor Express con el siguiente comando:
 
-## Further help
+    ```bash
+    npm run dev
+### Frontend:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para configurar el frontend de la aplicación, sigue estos pasos:
+
+1. Abre una terminal en la carpeta raíz del proyecto.
+2. Ejecuta el siguiente comando para instalar las dependencias del frontend y agregarlo:
+
+    ```bash
+	npm install --save @angular/material @angular/cdk @angular/animations
+3. Agrega el paquete de Angular Material con:
+
+    ```bash
+	ng add @angular/material
+4. Inicia la aplicación frontend con el siguiente comando:
+    
+    ```bash
+    npm start
+    
+    ng serve
+## Uso
+
+Antes de comenzar a utilizar la aplicación, asegúrate de que la base de datos "banco_usuarios" esté importada correctamente.
+
+### Backend Rutas (Endpoints) 
+
+- Obtener un registro de cliente por ID:
+http://localhost:4000/api/clients/1
+
+- Obtener todos los clientes:
+http://localhost:4000/api/clients
+
+- Obtener todos los usuarios:
+http://localhost:4000/api/usuarios
+
+
+### Frontend
+
+- Accede al frontend de la aplicación visitando:
+http://localhost:4200/	
+
+
+## Autenticación
+
+Puedes utilizar las siguientes credenciales para iniciar sesión en la aplicación:
+
+- Usuario: yaris@gmail.com
+- Password: yaris123
+
+
+## Licencia
+
+
+
+
+
+
+
